@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Page</title>
+</head>
+<body>
+    <header>
+        <h1>Student Registration Form</h1>
+    </header>
+    <main>
+        <p>Fill the following Informations</p>
+        <form>
+            <!--Student Name-->
+            <label id="student_name">Student Name:</label>
+            <input type="text" placeholder="Enter your Full Name" required>
+            <br><br>
+            <!--Matric Number-->
+            <label id="Matric_No">Matric Number:</label>
+            <input type="text" placeholder="Enter your Matric No" required>
+            <br><br>
+            <!--Department-->
+            <label id="department">Department:</label>
+            <select id="department" name="department" required>
+            <option value="">Select Department</option>
+            <option value="Information Technology">Information Technology</option>
+            <option value="Information Communication Technology">Information Communication Technology</option>
+            <option value="CyberSecurity">CyberSecurity</option>
+            <option value="Information System">Information System</option>
+            <option value="Computer Science">Computer Science</option>
+            <option value="Data Science">Data Science</option>
+            <option value="Software Engineering">Software Engineering</option>
+            </select>
+            <br><br>
+            <!--Email-->
+            <label id="Email">Email:</label>
+            <input type="text" placeholder="Enter your Email" required>
+            <br><br>
+            <!--Phone Number-->
+            <label id="telephone">Phone Number:</label>
+            <input type="tel" placeholder="Enter your phone number" required>
+            <br><br>
+            <!--Gender-->
+            <label id="gender">Gender:</label>
+            <input type="radio">
+            <label>Male</label>
+            <input type="radio">
+            <label>Female</label>
+            <br><br>
+            <!--Programme-->
+            <label id="Programme">Programme:</label>
+            <input type="radio">
+            <label>Full_time</label>
+            <input type="radio">
+            <label>Weekdays</label>
+            <input type="radio">
+            <label>Weekend</label>
+            <br><br>
+            <!--Submit-->
+            <button id="submit">Submit</button>
+        </form>
+    </main>
+</body>
+</html>
